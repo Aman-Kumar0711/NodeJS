@@ -24,3 +24,11 @@ const res = validator.isEmail("amanchahar175@gmail.com");
 //main chahta hoon ki email agar sahi ho basically result true ho to green mei aaye otherwise false mei
 console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
 //isEmail, isUrl etc sab jaan sakte hain
+
+//ek aur package hai nodemon
+// nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+// nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script.
+//jaise hi main kuchh change karke save karunga file ko woh seedhe run kar jaayegi...
+// ctrl+c karke baahar chale jaaoge batch se
+//global mei seedhe os mei install hota hai package
